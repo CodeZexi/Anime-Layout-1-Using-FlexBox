@@ -177,12 +177,17 @@ a{
     font-family: 'Cairo', sans-serif;
 }
 
+.parent{
+    position: relative;
+}
 .notfound{
+    padding: 300px;
     font-family: 'Cairo', sans-serif;
     font-size: 3em;
+    color: var(--maincolor);
     text-align: center;
-    position: absolute;
-    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* .soma2 {
     padding-top: 60px;
