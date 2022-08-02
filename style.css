@@ -177,6 +177,13 @@ a{
     font-family: 'Cairo', sans-serif;
 }
 
+.notfound{
+    font-family: 'Cairo', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto 0 auto;
+}
 /* .soma2 {
     padding-top: 60px;
     width: 100%;
