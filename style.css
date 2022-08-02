@@ -1,4 +1,4 @@
-:root{
+:root {
     --maincolor: rgb(255, 105, 105);
     --textcolor: white;
     --backgroundcolor: #eee;
@@ -9,37 +9,39 @@
 html {
     touch-action: manipulation;
 }
-body{
+
+body {
     margin: 0px;
     height: 5000px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
     background: linear-gradient(to right, rgb(251, 174, 255), rgba(0, 4, 0, 0)),
-    url("wallyx.jpg");
+        url("wallyx.jpg");
 }
 
-header{
+header {
     width: 100%;
     height: 150px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-blend-mode:screen ;
-    background-image: 
-    radial-gradient(circle, transparent -33%, rgba(6, 8, 161, 0.386) 5%),
-    linear-gradient(to right, rgba(0, 4, 255, 0), rgba(0, 4, 0, 0))
-    /* background-image: linear-gradient(rgb(1, 17, 54), rgba(0, 0, 0, 1)), url("bak.jpg"); */
+    background-blend-mode: screen;
+    background-image:
+        radial-gradient(circle, transparent -33%, rgba(6, 8, 161, 0.386) 5%),
+        linear-gradient(to right, rgba(0, 4, 255, 0), rgba(0, 4, 0, 0))
+        /* background-image: linear-gradient(rgb(1, 17, 54), rgba(0, 0, 0, 1)), url("bak.jpg"); */
 }
 
-.nav{
+.nav {
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     direction: rtl;
 }
-.navy{
+
+.navy {
     color: var(--textcolor);
     margin-left: 20px;
     height: 10px;
@@ -48,15 +50,15 @@ header{
     font-size: 1em;
     display: flex;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
     transition-duration: 430ms;
 }
 
-.navy:hover{
+.navy:hover {
     color: var(--maincolor)
 }
 
-.search{
+.search {
     margin-top: 50px;
     height: 10px;
     width: 100%;
@@ -67,7 +69,7 @@ header{
 
 }
 
-#headersearch{
+#headersearch {
     margin-top: 90px;
     margin-left: 15px;
     height: 33px;
@@ -80,7 +82,7 @@ header{
     font-size: 1.2em;
 }
 
-.flexbox{
+.flexbox {
     padding-top: 80px;
     width: 100%;
     height: 300px;
@@ -88,7 +90,9 @@ header{
     justify-content: center;
     text-align: center;
     font-family: 'Cairo', sans-serif;
-}.flexbox2{
+}
+
+.flexbox2 {
     padding-top: 60px;
     padding-bottom: 50px;
     width: 100%;
@@ -99,7 +103,7 @@ header{
     font-family: 'Cairo', sans-serif;
 }
 
-.fleximages{
+.fleximages {
     width: 1300px;
     height: 200px;
     display: flex;
@@ -108,7 +112,7 @@ header{
 
 }
 
-.f1, .f2, .f3, .f4{
+.f1, .f2, .f3, .f4 {
     width: 20%;
     background-color: red;
     color: black;
@@ -116,39 +120,41 @@ header{
     border: 2px solid salmon;
 }
 
-.f1 img, .f2 img, .f3 img, .f4 img{
-    width:100%;
+.f1 img, .f2 img, .f3 img, .f4 img {
+    width: 100%;
     height: 100%;
 }
 
-.f1:hover, .f2:hover, .f3:hover, .f4:hover{
-    width:30%;
+.f1:hover, .f2:hover, .f3:hover, .f4:hover {
+    width: 30%;
     height: 90%;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     transition-delay: 100ms;
 }
 
-.soma{
+.soma {
     width: 100%;
     text-align: center;
-    position:absolute;
+    position: absolute;
     margin: 0px auto 0px auto;
     font-size: 2em;
     color: var(--maincolor);
     font-family: 'Cairo', sans-serif;
-}.soma2{
+}
+
+.soma2 {
     padding-top: 60px;
     width: 100%;
     text-align: center;
-    position:absolute;
+    position: absolute;
     margin: 0px auto 0px auto;
     font-size: 2em;
     color: var(--textcolor);
     font-family: 'Cairo', sans-serif;
 }
 
-.soma::before{
+.soma::before {
     content: '';
     width: 30%;
     border-bottom: solid 1px rgb(0, 0, 0);
@@ -157,7 +163,8 @@ header{
     top: 50%;
     z-index: 1;
 }
-.soma::after{
+
+.soma::after {
     content: '';
     width: 30%;
     border-bottom: solid 1px rgb(0, 0, 0);
@@ -166,7 +173,8 @@ header{
     top: 50%;
     z-index: 1;
 }
-.soma2::before{
+
+.soma2::before {
     padding-top: 30px;
     content: '';
     width: 29%;
@@ -176,7 +184,8 @@ header{
     top: 50%;
     z-index: 1;
 }
-.soma2::after{
+
+.soma2::after {
     padding-top: 30px;
     content: '';
     width: 29%;
