@@ -15,7 +15,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    background: linear-gradient(to right, rgb(251, 174, 255), rgba(0, 4, 0, 0)),
+    background: linear-gradient(to right, rgb(251, 174, 255), rgba(255, 255, 255, 0)),
         url("wallyx.jpg");
 }
 
@@ -46,15 +46,18 @@ header {
     height: 10px;
     margin-top: calc(90px - 30px);
     font-family: 'Cairo', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     display: flex;
     font-weight: bold;
     cursor: pointer;
-    transition-duration: 430ms;
 }
 
-.navy:hover {
-    color: var(--maincolor)
+.navy a:hover {
+    transition-duration: 400ms;
+    animation-timing-function: ease-in-out;
+    font-size: 1.3em;
+    color: lightcoral;
+
 }
 
 .search {
